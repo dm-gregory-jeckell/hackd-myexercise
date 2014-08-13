@@ -1,6 +1,6 @@
 //
 //  LSAppDelegate.m
-//  myexercise
+//  myplate
 //
 //  Created by Greg Jeckell on 8/13/14.
 //  Copyright (c) 2014 livestrong. All rights reserved.
@@ -41,12 +41,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
-{
-    NSLog(@"url: %@", url);
-    return YES;
 }
 
 @end
