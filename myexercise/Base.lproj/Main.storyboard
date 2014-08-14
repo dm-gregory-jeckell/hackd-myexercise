@@ -19,7 +19,7 @@
             </objects>
             <point key="canvasLocation" x="45" y="329"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - My Exercise-->
         <scene sceneID="MrR-I2-P3q">
             <objects>
                 <viewController id="Kbs-9O-Vn3" sceneMemberID="viewController">
@@ -35,26 +35,23 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="143"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVG-Pq-9Ft">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVG-Pq-9Ft" customClass="LSRoundButton">
                                         <rect key="frame" x="18" y="37" width="71" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="MYPLATE">
                                             <color key="titleColor" red="1" green="0.51310526729999995" blue="0.2355917619" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="35"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                                 <integer key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsJ-VD-a2j">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsJ-VD-a2j" customClass="LSRoundButton">
                                         <rect key="frame" x="125" y="37" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,34 +60,28 @@
                                             <constraint firstAttribute="height" constant="70" id="XAV-mj-HRl"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="PROFILE">
                                             <color key="titleColor" red="1" green="0.51310526729999995" blue="0.2355917619" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="35"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                                 <integer key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4C-0Z-1ly">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4C-0Z-1ly" customClass="LSRoundButton">
                                         <rect key="frame" x="231" y="37" width="71" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="HISTORY">
                                             <color key="titleColor" red="1" green="0.51310526729999995" blue="0.2355917619" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="35"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                                 <integer key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
@@ -115,10 +106,15 @@
                                 <rect key="frame" x="0.0" y="207" width="320" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Xd-dQ-oLH">
-                                        <rect key="frame" x="20" y="20" width="70" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Xd-dQ-oLH" customClass="LSRoundButton">
+                                        <rect key="frame" x="70" y="20" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="dJv-De-qL2"/>
+                                            <constraint firstAttribute="width" constant="70" id="yFp-Rh-Ui0"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="FULL WORKOUT">
@@ -131,76 +127,108 @@
                                             </attributedString>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="35"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                                 <integer key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="yGj-he-ZHZ" kind="push" id="EXq-6G-9Gc"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kd-sS-hjU">
-                                        <rect key="frame" x="230" y="20" width="70" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kd-sS-hjU" customClass="LSRoundButton">
+                                        <rect key="frame" x="181" y="20" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="LFB-oG-SJn"/>
+                                            <constraint firstAttribute="width" constant="70" id="csD-P9-H68"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="PROFILE">
                                             <color key="titleColor" red="1" green="0.51310526729999995" blue="0.2355917619" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="35"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                                 <integer key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25x-Jg-EZa">
-                                        <rect key="frame" x="20" y="117" width="70" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25x-Jg-EZa" customClass="LSRoundButton">
+                                        <rect key="frame" x="70" y="117" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="qTU-Gg-OSl"/>
+                                            <constraint firstAttribute="height" constant="70" id="vTq-SS-ml7"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="PROFILE">
                                             <color key="titleColor" red="1" green="0.51310526729999995" blue="0.2355917619" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="35"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                                 <integer key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFA-NB-wkk">
-                                        <rect key="frame" x="230" y="117" width="70" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFA-NB-wkk" customClass="LSRoundButton">
+                                        <rect key="frame" x="181" y="117" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="6QD-eu-NXO"/>
+                                            <constraint firstAttribute="width" constant="70" id="wly-Po-Zya"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="PROFILE">
                                             <color key="titleColor" red="1" green="0.51310526729999995" blue="0.2355917619" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="35"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                                 <integer key="value" value="1"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iq3-Ol-GbL" userLabel="View - Divider Center">
+                                        <rect key="frame" x="160" y="20" width="1" height="167"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="Sob-Od-9p3"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YxW-ca-d8v" userLabel="View - Border Bottom">
+                                        <rect key="frame" x="0.0" y="206" width="320" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="ZzL-8K-caX"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.904296875" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="Iq3-Ol-GbL" firstAttribute="leading" secondItem="25x-Jg-EZa" secondAttribute="trailing" constant="20" id="32h-I0-jN5"/>
+                                    <constraint firstAttribute="centerX" secondItem="Iq3-Ol-GbL" secondAttribute="centerX" id="FCs-hZ-dj9"/>
+                                    <constraint firstItem="eFA-NB-wkk" firstAttribute="leading" secondItem="Iq3-Ol-GbL" secondAttribute="trailing" constant="20" id="Ue4-84-hF3"/>
                                     <constraint firstAttribute="height" constant="207" id="WLX-kQ-qhT"/>
+                                    <constraint firstAttribute="trailing" secondItem="YxW-ca-d8v" secondAttribute="trailing" id="YNZ-dp-ClA"/>
+                                    <constraint firstItem="5kd-sS-hjU" firstAttribute="leading" secondItem="Iq3-Ol-GbL" secondAttribute="trailing" constant="20" id="ZSt-ct-pUV"/>
+                                    <constraint firstItem="5kd-sS-hjU" firstAttribute="top" secondItem="ueI-FW-bF3" secondAttribute="top" constant="20" id="buJ-dP-R6G"/>
+                                    <constraint firstAttribute="bottom" secondItem="eFA-NB-wkk" secondAttribute="bottom" constant="20" id="foZ-Kg-zzN"/>
+                                    <constraint firstItem="Iq3-Ol-GbL" firstAttribute="top" secondItem="ueI-FW-bF3" secondAttribute="top" constant="20" id="hSi-l8-OLX"/>
+                                    <constraint firstAttribute="bottom" secondItem="25x-Jg-EZa" secondAttribute="bottom" constant="20" id="hbm-DM-yUF"/>
+                                    <constraint firstItem="YxW-ca-d8v" firstAttribute="leading" secondItem="ueI-FW-bF3" secondAttribute="leading" id="oK8-s4-vpz"/>
+                                    <constraint firstAttribute="bottom" secondItem="YxW-ca-d8v" secondAttribute="bottom" id="pIY-EU-wtE"/>
+                                    <constraint firstItem="Iq3-Ol-GbL" firstAttribute="leading" secondItem="1Xd-dQ-oLH" secondAttribute="trailing" constant="20" id="rHh-DT-9Vd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Iq3-Ol-GbL" secondAttribute="bottom" constant="20" id="ru7-n9-oBs"/>
+                                    <constraint firstItem="1Xd-dQ-oLH" firstAttribute="top" secondItem="ueI-FW-bF3" secondAttribute="top" constant="20" id="xhs-sR-fNH"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="KJb-Ka-C5R" userLabel="View - Footer">
@@ -211,27 +239,88 @@
                                     <constraint firstAttribute="height" constant="154" id="DaR-eH-nML"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SR1-Im-bry" userLabel="View - Border Bottom">
+                                <rect key="frame" x="0.0" y="207" width="320" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="x7Y-bt-2XC"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ueI-FW-bF3" firstAttribute="leading" secondItem="d9c-Oc-Nwh" secondAttribute="leading" id="57A-eJ-q1o"/>
                             <constraint firstItem="KJb-Ka-C5R" firstAttribute="top" secondItem="ueI-FW-bF3" secondAttribute="bottom" id="LBz-oM-mpB"/>
+                            <constraint firstItem="SR1-Im-bry" firstAttribute="leading" secondItem="d9c-Oc-Nwh" secondAttribute="leading" id="Ocn-0o-1y0"/>
                             <constraint firstItem="U0W-lA-wNw" firstAttribute="top" secondItem="KJb-Ka-C5R" secondAttribute="bottom" id="PkS-EY-yFU"/>
                             <constraint firstAttribute="trailing" secondItem="KJb-Ka-C5R" secondAttribute="trailing" id="Sxq-Rf-sjt"/>
                             <constraint firstAttribute="trailing" secondItem="ueI-FW-bF3" secondAttribute="trailing" id="Y9a-qt-R0i"/>
                             <constraint firstItem="KJb-Ka-C5R" firstAttribute="top" secondItem="ueI-FW-bF3" secondAttribute="bottom" id="YvT-QJ-DMG"/>
+                            <constraint firstItem="SR1-Im-bry" firstAttribute="top" secondItem="P9B-Uv-vzh" secondAttribute="bottom" id="jXC-OF-tw9"/>
                             <constraint firstItem="KJb-Ka-C5R" firstAttribute="leading" secondItem="d9c-Oc-Nwh" secondAttribute="leading" id="lE9-Oy-bd7"/>
                             <constraint firstItem="P9B-Uv-vzh" firstAttribute="leading" secondItem="d9c-Oc-Nwh" secondAttribute="leading" id="oD7-e4-VQc"/>
                             <constraint firstItem="P9B-Uv-vzh" firstAttribute="top" secondItem="vX2-4S-nIG" secondAttribute="bottom" id="u8Y-HM-6s4"/>
+                            <constraint firstAttribute="trailing" secondItem="SR1-Im-bry" secondAttribute="trailing" id="ucb-u6-jWU"/>
                             <constraint firstAttribute="trailing" secondItem="P9B-Uv-vzh" secondAttribute="trailing" id="xSU-YZ-3q8"/>
                             <constraint firstItem="ueI-FW-bF3" firstAttribute="top" secondItem="P9B-Uv-vzh" secondAttribute="bottom" id="zee-C7-No5"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Lmq-so-5l5"/>
+                    <navigationItem key="navigationItem" title="My Exercise" id="Lmq-so-5l5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6a-JQ-FJH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="445" y="329"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="cHG-LZ-UrM">
+            <objects>
+                <tableViewController id="yGj-he-ZHZ" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Th7-OJ-X6P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="MV2-P4-SMt">
+                            <rect key="frame" x="0.0" y="64" width="320" height="115"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="qbW-Fi-W4F">
+                                    <rect key="frame" x="20" y="20" width="280" height="75"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <string key="text">Select a few or all of the properties below to explore suitable workouts. If you can't find something you like feel free to upload your own workout from the main menu!</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="qbW-Fi-W4F" firstAttribute="leading" secondItem="MV2-P4-SMt" secondAttribute="leading" constant="20" id="3QQ-Qw-slJ"/>
+                                <constraint firstItem="qbW-Fi-W4F" firstAttribute="top" secondItem="MV2-P4-SMt" secondAttribute="top" constant="20" id="Wy4-J7-L03"/>
+                                <constraint firstAttribute="bottom" secondItem="qbW-Fi-W4F" secondAttribute="bottom" constant="20" id="cL2-p8-m9N"/>
+                                <constraint firstAttribute="trailing" secondItem="qbW-Fi-W4F" secondAttribute="trailing" constant="20" id="h91-eV-FhL"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BnL-d2-gaR">
+                                <rect key="frame" x="0.0" y="201" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BnL-d2-gaR" id="dSu-U1-0ns">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yGj-he-ZHZ" id="4nB-my-LN9"/>
+                            <outlet property="delegate" destination="yGj-he-ZHZ" id="CpJ-kX-Ux5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ePF-vp-fXE"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3Z-Ek-fyy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="329"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

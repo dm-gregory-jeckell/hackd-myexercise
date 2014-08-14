@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
+		369845A2199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
+		369845A6199D20D7003E3682 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369845A4199D1FCE003E3682 /* QuartzCore.framework */; };
 		36A9D8A8199C239400E50F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8A7199C239400E50F48 /* Foundation.framework */; };
 		36A9D8AA199C239400E50F48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8A9199C239400E50F48 /* CoreGraphics.framework */; };
 		36A9D8AC199C239400E50F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8AB199C239400E50F48 /* UIKit.framework */; };
@@ -55,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3698459F199D1D3C003E3682 /* LSRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSRoundButton.h; path = UIComponents/LSRoundButton.h; sourceTree = "<group>"; };
+		369845A0199D1D3C003E3682 /* LSRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSRoundButton.m; path = UIComponents/LSRoundButton.m; sourceTree = "<group>"; };
+		369845A4199D1FCE003E3682 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		36A9D8A4199C239400E50F48 /* myexercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myexercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A9D8A7199C239400E50F48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36A9D8A9199C239400E50F48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369845A6199D20D7003E3682 /* QuartzCore.framework in Frameworks */,
 				36A9D8AA199C239400E50F48 /* CoreGraphics.framework in Frameworks */,
 				36A9D8AC199C239400E50F48 /* UIKit.framework in Frameworks */,
 				36A9D8A8199C239400E50F48 /* Foundation.framework in Frameworks */,
@@ -135,6 +142,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		369845A3199D1D93003E3682 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3698459F199D1D3C003E3682 /* LSRoundButton.h */,
+				369845A0199D1D3C003E3682 /* LSRoundButton.m */,
+			);
+			name = UIComponents;
+			sourceTree = "<group>";
+		};
 		36A9D89B199C239400E50F48 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +177,7 @@
 		36A9D8A6199C239400E50F48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				369845A4199D1FCE003E3682 /* QuartzCore.framework */,
 				36A9D8A7199C239400E50F48 /* Foundation.framework */,
 				36A9D8A9199C239400E50F48 /* CoreGraphics.framework */,
 				36A9D8AB199C239400E50F48 /* UIKit.framework */,
@@ -174,9 +191,10 @@
 			children = (
 				36A9D8B6199C239400E50F48 /* LSAppDelegate.h */,
 				36A9D8B7199C239400E50F48 /* LSAppDelegate.m */,
-				36A9D8B9199C239400E50F48 /* Main.storyboard */,
 				36A9D8BC199C239400E50F48 /* LSViewController.h */,
 				36A9D8BD199C239400E50F48 /* LSViewController.m */,
+				369845A3199D1D93003E3682 /* UIComponents */,
+				36A9D8B9199C239400E50F48 /* Main.storyboard */,
 				36A9D8BF199C239400E50F48 /* Images.xcassets */,
 				36A9D8AE199C239400E50F48 /* Supporting Files */,
 			);
@@ -412,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A9D8B4199C239400E50F48 /* main.m in Sources */,
+				369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */,
 				36A9D8B8199C239400E50F48 /* LSAppDelegate.m in Sources */,
 				36A9D8BE199C239400E50F48 /* LSViewController.m in Sources */,
 			);
@@ -430,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A9D8EB199C28F500E50F48 /* main.m in Sources */,
+				369845A2199D1D3C003E3682 /* LSRoundButton.m in Sources */,
 				36A9D8EF199C28F500E50F48 /* LSAppDelegate.m in Sources */,
 				36A9D8F5199C28F500E50F48 /* LSViewController.m in Sources */,
 			);
@@ -735,6 +755,7 @@
 				36A9D8D8199C239500E50F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A9D8D9199C239500E50F48 /* Build configuration list for PBXNativeTarget "myexerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -743,6 +764,7 @@
 				36A9D8DB199C239500E50F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A9D90A199C28F500E50F48 /* Build configuration list for PBXNativeTarget "myplate" */ = {
 			isa = XCConfigurationList;
@@ -751,6 +773,7 @@
 				36A9D90C199C28F500E50F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A9D90D199C28F500E50F48 /* Build configuration list for PBXNativeTarget "myplateTests" */ = {
 			isa = XCConfigurationList;
@@ -759,6 +782,7 @@
 				36A9D90F199C28F500E50F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
