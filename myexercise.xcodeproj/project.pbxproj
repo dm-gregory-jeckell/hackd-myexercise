@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3646C210199D9E74008A5E03 /* LSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C20F199D9E74008A5E03 /* LSTableViewCell.m */; };
+		3646C213199DA52D008A5E03 /* LSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C212199DA52D008A5E03 /* LSTableViewController.m */; };
 		3694A01D199D362C00C1D79C /* LSExpandingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */; };
 		3694A020199D3B9600C1D79C /* LSTableViewExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01F199D3B9600C1D79C /* LSTableViewExpandableCell.m */; };
 		369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
 		369845A2199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
-		369845A6199D20D7003E3682 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369845A4199D1FCE003E3682 /* QuartzCore.framework */; };
 		36A9D8A8199C239400E50F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8A7199C239400E50F48 /* Foundation.framework */; };
 		36A9D8AA199C239400E50F48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8A9199C239400E50F48 /* CoreGraphics.framework */; };
 		36A9D8AC199C239400E50F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8AB199C239400E50F48 /* UIKit.framework */; };
@@ -61,6 +62,11 @@
 
 /* Begin PBXFileReference section */
 		268D67EDBD8A4D56A96A9CAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3646C20C199D9152008A5E03 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		3646C20E199D9E74008A5E03 /* LSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTableViewCell.h; path = Views/LSTableViewCell.h; sourceTree = "<group>"; };
+		3646C20F199D9E74008A5E03 /* LSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTableViewCell.m; path = Views/LSTableViewCell.m; sourceTree = "<group>"; };
+		3646C211199DA52D008A5E03 /* LSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTableViewController.h; path = ViewControllers/LSTableViewController.h; sourceTree = "<group>"; };
+		3646C212199DA52D008A5E03 /* LSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTableViewController.m; path = ViewControllers/LSTableViewController.m; sourceTree = "<group>"; };
 		3694A01B199D362C00C1D79C /* LSExpandingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSExpandingTableViewController.h; path = ViewControllers/LSExpandingTableViewController.h; sourceTree = "<group>"; };
 		3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSExpandingTableViewController.m; path = ViewControllers/LSExpandingTableViewController.m; sourceTree = "<group>"; };
 		3694A01E199D3B9600C1D79C /* LSTableViewExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTableViewExpandableCell.h; path = Views/LSTableViewExpandableCell.h; sourceTree = "<group>"; };
@@ -108,7 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				369845A6199D20D7003E3682 /* QuartzCore.framework in Frameworks */,
 				36A9D8AA199C239400E50F48 /* CoreGraphics.framework in Frameworks */,
 				36A9D8AC199C239400E50F48 /* UIKit.framework in Frameworks */,
 				36A9D8A8199C239400E50F48 /* Foundation.framework in Frameworks */,
@@ -154,6 +159,8 @@
 			children = (
 				3694A01B199D362C00C1D79C /* LSExpandingTableViewController.h */,
 				3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */,
+				3646C211199DA52D008A5E03 /* LSTableViewController.h */,
+				3646C212199DA52D008A5E03 /* LSTableViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -163,6 +170,8 @@
 			children = (
 				3694A01E199D3B9600C1D79C /* LSTableViewExpandableCell.h */,
 				3694A01F199D3B9600C1D79C /* LSTableViewExpandableCell.m */,
+				3646C20E199D9E74008A5E03 /* LSTableViewCell.h */,
+				3646C20F199D9E74008A5E03 /* LSTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -203,6 +212,7 @@
 		36A9D8A6199C239400E50F48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3646C20C199D9152008A5E03 /* libPods-AFNetworking.a */,
 				369845A4199D1FCE003E3682 /* QuartzCore.framework */,
 				36A9D8A7199C239400E50F48 /* Foundation.framework */,
 				36A9D8A9199C239400E50F48 /* CoreGraphics.framework */,
@@ -493,8 +503,10 @@
 			files = (
 				3694A020199D3B9600C1D79C /* LSTableViewExpandableCell.m in Sources */,
 				36A9D8B4199C239400E50F48 /* main.m in Sources */,
+				3646C213199DA52D008A5E03 /* LSTableViewController.m in Sources */,
 				3694A01D199D362C00C1D79C /* LSExpandingTableViewController.m in Sources */,
 				369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */,
+				3646C210199D9E74008A5E03 /* LSTableViewCell.m in Sources */,
 				36A9D8B8199C239400E50F48 /* LSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -672,6 +684,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myexercise/myexercise-Prefix.pch";
 				INFOPLIST_FILE = "myexercise/myexercise-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -686,6 +702,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myexercise/myexercise-Prefix.pch";
 				INFOPLIST_FILE = "myexercise/myexercise-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

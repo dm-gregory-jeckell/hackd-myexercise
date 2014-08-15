@@ -11,7 +11,6 @@
 
 @interface LSExpandingTableViewController () <LSTableViewExpandableCellDelegate>
 @property (strong, nonatomic) NSArray* tableData;
-@property (strong, nonatomic) NSArray* intensityRows;
 @end
 
 @implementation LSExpandingTableViewController
@@ -19,11 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.intensityRows = @[@"A", @"B", @"C"];
+    NSArray* intensityRow = @[@"Low", @"Medium", @"High"];
+    NSArray* durationRow = @[@"15 Minutes", @"30 Minutes", @"60 Minutes"];
+    NSArray* bodyRow = @[@"Chest", @"Back", @"Arms", @"Legs", @"Butt", @"Abs", @"Cardio"];
+    NSArray* equipmentRow = @[@"Gym", @"Outdoor", @"Free Weights", @"Office"];
+    NSArray* fitnessRow = @[@"Weight Loss", @"Firm & Tone", @"Increase Strength"];
     self.tableData = @[
-                       @{@"title" : @"Intensity", @"rows" : self.intensityRows},
-                       @{@"title" : @"Muscle Groups", @"rows" : self.intensityRows},
-                       @{@"title" : @"Location", @"rows" : self.intensityRows}
+                       @{@"title" : @"Intensity", @"rows" : intensityRow},
+                       @{@"title" : @"Duration", @"rows" : durationRow},
+                       @{@"title" : @"Body", @"rows" : bodyRow},
+                       @{@"title" : @"Equipment", @"rows" : equipmentRow},
+                       @{@"title" : @"Fitness Goal", @"rows" : fitnessRow}
                        ];
 }
 
