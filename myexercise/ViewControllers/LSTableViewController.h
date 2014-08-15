@@ -12,4 +12,6 @@
 @property (nonatomic, strong) IBOutlet UIView* featuredContainer;
 @property (nonatomic, strong) IBOutlet UIImageView* featuredImage;
 @property (nonatomic, strong) IBOutlet UILabel* featuredTitle;
+@property (nonatomic, strong) NSArray* tableData;
+@property (nonatomic, strong) NSDictionary* featuredObject;
 @end

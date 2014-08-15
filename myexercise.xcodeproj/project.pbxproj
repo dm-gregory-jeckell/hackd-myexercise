@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3646C210199D9E74008A5E03 /* LSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C20F199D9E74008A5E03 /* LSTableViewCell.m */; };
 		3646C213199DA52D008A5E03 /* LSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C212199DA52D008A5E03 /* LSTableViewController.m */; };
+		3646C218199DC1EB008A5E03 /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C217199DC1EB008A5E03 /* LSViewController.m */; };
 		3694A01D199D362C00C1D79C /* LSExpandingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */; };
 		3694A020199D3B9600C1D79C /* LSTableViewExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01F199D3B9600C1D79C /* LSTableViewExpandableCell.m */; };
 		369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
@@ -67,6 +68,9 @@
 		3646C20F199D9E74008A5E03 /* LSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTableViewCell.m; path = Views/LSTableViewCell.m; sourceTree = "<group>"; };
 		3646C211199DA52D008A5E03 /* LSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTableViewController.h; path = ViewControllers/LSTableViewController.h; sourceTree = "<group>"; };
 		3646C212199DA52D008A5E03 /* LSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTableViewController.m; path = ViewControllers/LSTableViewController.m; sourceTree = "<group>"; };
+		3646C214199DAFF8008A5E03 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Release-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		3646C216199DC1EB008A5E03 /* LSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSViewController.h; path = ViewControllers/LSViewController.h; sourceTree = "<group>"; };
+		3646C217199DC1EB008A5E03 /* LSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSViewController.m; path = ViewControllers/LSViewController.m; sourceTree = "<group>"; };
 		3694A01B199D362C00C1D79C /* LSExpandingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSExpandingTableViewController.h; path = ViewControllers/LSExpandingTableViewController.h; sourceTree = "<group>"; };
 		3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSExpandingTableViewController.m; path = ViewControllers/LSExpandingTableViewController.m; sourceTree = "<group>"; };
 		3694A01E199D3B9600C1D79C /* LSTableViewExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTableViewExpandableCell.h; path = Views/LSTableViewExpandableCell.h; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 				3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */,
 				3646C211199DA52D008A5E03 /* LSTableViewController.h */,
 				3646C212199DA52D008A5E03 /* LSTableViewController.m */,
+				3646C216199DC1EB008A5E03 /* LSViewController.h */,
+				3646C217199DC1EB008A5E03 /* LSViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 		36A9D8A6199C239400E50F48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3646C214199DAFF8008A5E03 /* libPods-AFNetworking.a */,
 				3646C20C199D9152008A5E03 /* libPods-AFNetworking.a */,
 				369845A4199D1FCE003E3682 /* QuartzCore.framework */,
 				36A9D8A7199C239400E50F48 /* Foundation.framework */,
@@ -504,6 +511,7 @@
 				3694A020199D3B9600C1D79C /* LSTableViewExpandableCell.m in Sources */,
 				36A9D8B4199C239400E50F48 /* main.m in Sources */,
 				3646C213199DA52D008A5E03 /* LSTableViewController.m in Sources */,
+				3646C218199DC1EB008A5E03 /* LSViewController.m in Sources */,
 				3694A01D199D362C00C1D79C /* LSExpandingTableViewController.m in Sources */,
 				369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */,
 				3646C210199D9E74008A5E03 /* LSTableViewCell.m in Sources */,
@@ -687,6 +695,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/build/Release-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -705,6 +714,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods/build/Release-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
