@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3694A01D199D362C00C1D79C /* LSExpandingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */; };
+		3694A020199D3B9600C1D79C /* LSTableViewExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01F199D3B9600C1D79C /* LSTableViewExpandableCell.m */; };
 		369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
 		369845A2199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
 		369845A6199D20D7003E3682 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369845A4199D1FCE003E3682 /* QuartzCore.framework */; };
@@ -17,7 +19,6 @@
 		36A9D8B4199C239400E50F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A9D8B3199C239400E50F48 /* main.m */; };
 		36A9D8B8199C239400E50F48 /* LSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A9D8B7199C239400E50F48 /* LSAppDelegate.m */; };
 		36A9D8BB199C239400E50F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A9D8B9199C239400E50F48 /* Main.storyboard */; };
-		36A9D8BE199C239400E50F48 /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A9D8BD199C239400E50F48 /* LSViewController.m */; };
 		36A9D8C0199C239400E50F48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A9D8BF199C239400E50F48 /* Images.xcassets */; };
 		36A9D8C7199C239500E50F48 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8C6199C239500E50F48 /* XCTest.framework */; };
 		36A9D8C8199C239500E50F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8A7199C239400E50F48 /* Foundation.framework */; };
@@ -38,6 +39,7 @@
 		36A9D8FF199C28F500E50F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8AB199C239400E50F48 /* UIKit.framework */; };
 		36A9D907199C28F500E50F48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36A9D905199C28F500E50F48 /* InfoPlist.strings */; };
 		36A9D909199C28F500E50F48 /* myplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A9D908199C28F500E50F48 /* myplateTests.m */; };
+		6D90A143C669486899291D69 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268D67EDBD8A4D56A96A9CAF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268D67EDBD8A4D56A96A9CAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3694A01B199D362C00C1D79C /* LSExpandingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSExpandingTableViewController.h; path = ViewControllers/LSExpandingTableViewController.h; sourceTree = "<group>"; };
+		3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSExpandingTableViewController.m; path = ViewControllers/LSExpandingTableViewController.m; sourceTree = "<group>"; };
+		3694A01E199D3B9600C1D79C /* LSTableViewExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTableViewExpandableCell.h; path = Views/LSTableViewExpandableCell.h; sourceTree = "<group>"; };
+		3694A01F199D3B9600C1D79C /* LSTableViewExpandableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTableViewExpandableCell.m; path = Views/LSTableViewExpandableCell.m; sourceTree = "<group>"; };
 		3698459F199D1D3C003E3682 /* LSRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSRoundButton.h; path = UIComponents/LSRoundButton.h; sourceTree = "<group>"; };
 		369845A0199D1D3C003E3682 /* LSRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSRoundButton.m; path = UIComponents/LSRoundButton.m; sourceTree = "<group>"; };
 		369845A4199D1FCE003E3682 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -72,8 +79,6 @@
 		36A9D8B6199C239400E50F48 /* LSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAppDelegate.h; sourceTree = "<group>"; };
 		36A9D8B7199C239400E50F48 /* LSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAppDelegate.m; sourceTree = "<group>"; };
 		36A9D8BA199C239400E50F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36A9D8BC199C239400E50F48 /* LSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewController.h; sourceTree = "<group>"; };
-		36A9D8BD199C239400E50F48 /* LSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewController.m; sourceTree = "<group>"; };
 		36A9D8BF199C239400E50F48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		36A9D8C5199C239500E50F48 /* myexerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myexerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A9D8C6199C239500E50F48 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -95,6 +100,7 @@
 		36A9D904199C28F500E50F48 /* myplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myplateTests-Info.plist"; sourceTree = "<group>"; };
 		36A9D906199C28F500E50F48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36A9D908199C28F500E50F48 /* myplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myplateTests.m; sourceTree = "<group>"; };
+		E5339B0873654FC6A86FC01E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				36A9D8AA199C239400E50F48 /* CoreGraphics.framework in Frameworks */,
 				36A9D8AC199C239400E50F48 /* UIKit.framework in Frameworks */,
 				36A9D8A8199C239400E50F48 /* Foundation.framework in Frameworks */,
+				6D90A143C669486899291D69 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3694A01A199D311400C1D79C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3694A01B199D362C00C1D79C /* LSExpandingTableViewController.h */,
+				3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3694A021199D3B9D00C1D79C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3694A01E199D3B9600C1D79C /* LSTableViewExpandableCell.h */,
+				3694A01F199D3B9600C1D79C /* LSTableViewExpandableCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		369845A3199D1D93003E3682 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +185,7 @@
 				36A9D902199C28F500E50F48 /* myplateTests */,
 				36A9D8A6199C239400E50F48 /* Frameworks */,
 				36A9D8A5199C239400E50F48 /* Products */,
+				E5339B0873654FC6A86FC01E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,6 +208,7 @@
 				36A9D8A9199C239400E50F48 /* CoreGraphics.framework */,
 				36A9D8AB199C239400E50F48 /* UIKit.framework */,
 				36A9D8C6199C239500E50F48 /* XCTest.framework */,
+				268D67EDBD8A4D56A96A9CAF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +218,9 @@
 			children = (
 				36A9D8B6199C239400E50F48 /* LSAppDelegate.h */,
 				36A9D8B7199C239400E50F48 /* LSAppDelegate.m */,
-				36A9D8BC199C239400E50F48 /* LSViewController.h */,
-				36A9D8BD199C239400E50F48 /* LSViewController.m */,
 				369845A3199D1D93003E3682 /* UIComponents */,
+				3694A021199D3B9D00C1D79C /* Views */,
+				3694A01A199D311400C1D79C /* ViewControllers */,
 				36A9D8B9199C239400E50F48 /* Main.storyboard */,
 				36A9D8BF199C239400E50F48 /* Images.xcassets */,
 				36A9D8AE199C239400E50F48 /* Supporting Files */,
@@ -280,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36A9D8D6199C239500E50F48 /* Build configuration list for PBXNativeTarget "myexercise" */;
 			buildPhases = (
+				5FD1FA31020E4FC98E90B143 /* Check Pods Manifest.lock */,
 				36A9D8A0199C239400E50F48 /* Sources */,
 				36A9D8A1199C239400E50F48 /* Frameworks */,
 				36A9D8A2199C239400E50F48 /* Resources */,
+				75E1B1004DB249C4A261510A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -424,15 +453,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FD1FA31020E4FC98E90B143 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75E1B1004DB249C4A261510A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36A9D8A0199C239400E50F48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3694A020199D3B9600C1D79C /* LSTableViewExpandableCell.m in Sources */,
 				36A9D8B4199C239400E50F48 /* main.m in Sources */,
+				3694A01D199D362C00C1D79C /* LSExpandingTableViewController.m in Sources */,
 				369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */,
 				36A9D8B8199C239400E50F48 /* LSAppDelegate.m in Sources */,
-				36A9D8BE199C239400E50F48 /* LSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +665,7 @@
 		};
 		36A9D8D7199C239500E50F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5339B0873654FC6A86FC01E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -615,6 +679,7 @@
 		};
 		36A9D8D8199C239500E50F48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5339B0873654FC6A86FC01E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
