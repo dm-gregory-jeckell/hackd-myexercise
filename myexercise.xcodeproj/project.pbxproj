@@ -10,10 +10,16 @@
 		3646C210199D9E74008A5E03 /* LSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C20F199D9E74008A5E03 /* LSTableViewCell.m */; };
 		3646C213199DA52D008A5E03 /* LSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C212199DA52D008A5E03 /* LSTableViewController.m */; };
 		3646C218199DC1EB008A5E03 /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3646C217199DC1EB008A5E03 /* LSViewController.m */; };
+		36511574199DC978005344CE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36511573199DC978005344CE /* ImageIO.framework */; };
 		3694A01D199D362C00C1D79C /* LSExpandingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */; };
 		3694A020199D3B9600C1D79C /* LSTableViewExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694A01F199D3B9600C1D79C /* LSTableViewExpandableCell.m */; };
 		369845A1199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
 		369845A2199D1D3C003E3682 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 369845A0199D1D3C003E3682 /* LSRoundButton.m */; };
+		369A0433199DD70200997DFC /* a.gif in Resources */ = {isa = PBXBuildFile; fileRef = 369A042E199DD70200997DFC /* a.gif */; };
+		369A0434199DD70200997DFC /* b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 369A042F199DD70200997DFC /* b.gif */; };
+		369A0435199DD70200997DFC /* c.gif in Resources */ = {isa = PBXBuildFile; fileRef = 369A0430199DD70200997DFC /* c.gif */; };
+		369A0436199DD70200997DFC /* d.gif in Resources */ = {isa = PBXBuildFile; fileRef = 369A0431199DD70200997DFC /* d.gif */; };
+		369A0437199DD70200997DFC /* e.gif in Resources */ = {isa = PBXBuildFile; fileRef = 369A0432199DD70200997DFC /* e.gif */; };
 		36A9D8A8199C239400E50F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8A7199C239400E50F48 /* Foundation.framework */; };
 		36A9D8AA199C239400E50F48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8A9199C239400E50F48 /* CoreGraphics.framework */; };
 		36A9D8AC199C239400E50F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A9D8AB199C239400E50F48 /* UIKit.framework */; };
@@ -71,6 +77,7 @@
 		3646C214199DAFF8008A5E03 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Release-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
 		3646C216199DC1EB008A5E03 /* LSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSViewController.h; path = ViewControllers/LSViewController.h; sourceTree = "<group>"; };
 		3646C217199DC1EB008A5E03 /* LSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSViewController.m; path = ViewControllers/LSViewController.m; sourceTree = "<group>"; };
+		36511573199DC978005344CE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		3694A01B199D362C00C1D79C /* LSExpandingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSExpandingTableViewController.h; path = ViewControllers/LSExpandingTableViewController.h; sourceTree = "<group>"; };
 		3694A01C199D362C00C1D79C /* LSExpandingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSExpandingTableViewController.m; path = ViewControllers/LSExpandingTableViewController.m; sourceTree = "<group>"; };
 		3694A01E199D3B9600C1D79C /* LSTableViewExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTableViewExpandableCell.h; path = Views/LSTableViewExpandableCell.h; sourceTree = "<group>"; };
@@ -78,6 +85,11 @@
 		3698459F199D1D3C003E3682 /* LSRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSRoundButton.h; path = UIComponents/LSRoundButton.h; sourceTree = "<group>"; };
 		369845A0199D1D3C003E3682 /* LSRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSRoundButton.m; path = UIComponents/LSRoundButton.m; sourceTree = "<group>"; };
 		369845A4199D1FCE003E3682 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		369A042E199DD70200997DFC /* a.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a.gif; sourceTree = "<group>"; };
+		369A042F199DD70200997DFC /* b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b.gif; sourceTree = "<group>"; };
+		369A0430199DD70200997DFC /* c.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = c.gif; sourceTree = "<group>"; };
+		369A0431199DD70200997DFC /* d.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = d.gif; sourceTree = "<group>"; };
+		369A0432199DD70200997DFC /* e.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = e.gif; sourceTree = "<group>"; };
 		36A9D8A4199C239400E50F48 /* myexercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myexercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A9D8A7199C239400E50F48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36A9D8A9199C239400E50F48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36511574199DC978005344CE /* ImageIO.framework in Frameworks */,
 				36A9D8AA199C239400E50F48 /* CoreGraphics.framework in Frameworks */,
 				36A9D8AC199C239400E50F48 /* UIKit.framework in Frameworks */,
 				36A9D8A8199C239400E50F48 /* Foundation.framework in Frameworks */,
@@ -191,6 +204,18 @@
 			name = UIComponents;
 			sourceTree = "<group>";
 		};
+		369A042D199DD70200997DFC /* gifs */ = {
+			isa = PBXGroup;
+			children = (
+				369A042E199DD70200997DFC /* a.gif */,
+				369A042F199DD70200997DFC /* b.gif */,
+				369A0430199DD70200997DFC /* c.gif */,
+				369A0431199DD70200997DFC /* d.gif */,
+				369A0432199DD70200997DFC /* e.gif */,
+			);
+			path = gifs;
+			sourceTree = "<group>";
+		};
 		36A9D89B199C239400E50F48 = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +243,7 @@
 		36A9D8A6199C239400E50F48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36511573199DC978005344CE /* ImageIO.framework */,
 				3646C214199DAFF8008A5E03 /* libPods-AFNetworking.a */,
 				3646C20C199D9152008A5E03 /* libPods-AFNetworking.a */,
 				369845A4199D1FCE003E3682 /* QuartzCore.framework */,
@@ -248,6 +274,7 @@
 		36A9D8AE199C239400E50F48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				369A042D199DD70200997DFC /* gifs */,
 				36A9D8AF199C239400E50F48 /* myexercise-Info.plist */,
 				36A9D8B0199C239400E50F48 /* InfoPlist.strings */,
 				36A9D8B3199C239400E50F48 /* main.m */,
@@ -436,8 +463,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369A0435199DD70200997DFC /* c.gif in Resources */,
+				369A0434199DD70200997DFC /* b.gif in Resources */,
 				36A9D8C0199C239400E50F48 /* Images.xcassets in Resources */,
+				369A0436199DD70200997DFC /* d.gif in Resources */,
 				36A9D8B2199C239400E50F48 /* InfoPlist.strings in Resources */,
+				369A0433199DD70200997DFC /* a.gif in Resources */,
+				369A0437199DD70200997DFC /* e.gif in Resources */,
 				36A9D8BB199C239400E50F48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FLAnimatedImageView.h>
 
 @interface LSTableViewCell : UITableViewCell
 @property (nonatomic, strong) IBOutlet UIImageView* img;
+@property (nonatomic, strong) IBOutlet FLAnimatedImageView* animatedImage;
 @property (nonatomic, strong) IBOutlet UILabel* titleLabel;
+@property (nonatomic, strong) IBOutlet UILabel* subTitleLebel;
 @property (nonatomic, strong) IBOutlet UILabel* upsLabel;
 @property (nonatomic, strong) IBOutlet UILabel* downsLabel;
 @end

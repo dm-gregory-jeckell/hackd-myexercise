@@ -36,7 +36,7 @@
                          @"downs" : @"122",
                          @"img" : @"http://i.imgur.com/kDHKnZk.jpg"
                          },
-                       @{@"title" : @"Get Jacked with Jason",
+                       @{@"title" : @"Get Jacked with J",
                          @"ups" : @"600",
                          @"downs" : @"100",
                          @"img" : @"http://i.imgur.com/ZTXXD9N.jpg"
